@@ -1,0 +1,48 @@
+body{
+  background-color:black;
+}
+h1{
+  text-align: center;
+  font-size:5rem;
+  color:#394F8A;
+}
+.images{
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+}
+.drum{
+  width: 10%;
+  font-size:5rem;
+  background-color:#9CF6FB;
+  margin-left: 3%;
+}
+.drumimg{
+  width: 20%;
+  margin:1% 40% 5% 40%;
+}
+.a{
+  background-image:url("images/crash.png");
+}
+.s{
+  background-image:url("images/kick.png");
+}
+.d{
+  background-image:url("images/snare.png");
+}
+.f {
+  background-image:url("images/tom1.png");
+}
+.j{
+  background-image:url("images/tom2.png");
+}
+.k {
+  background-image:url("images/tom3.png");
+}
+.l{
+  background-image:url("images/tom4.png");
+}
+/*animation class for the button*/
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
